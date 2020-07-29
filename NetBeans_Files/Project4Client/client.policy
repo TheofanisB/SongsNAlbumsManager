@@ -1,0 +1,6 @@
+/*Client Permissions*/
+
+grant {
+ permission java.net.SocketPermission "127.0.0.1:1099-", "connect, resolve";
+ permission java.net.SocketPermission "192.168.1.2:2000-", "connect, resolve";
+};
